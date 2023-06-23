@@ -59,5 +59,9 @@ body {
       margin-top: $m-l;
       margin-bottom: $m-n;
     }
+
+    small {
+      color: $color-text;
+    }
   }
 }

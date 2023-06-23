@@ -9,4 +9,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-color: hsl(185, 75%, 39%);
 }

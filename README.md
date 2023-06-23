@@ -1,3 +1,3 @@
-# Profile Card Component
+# Live Demo 👇
 
-An elegant profile card component
+https://napalm-git.github.io/profile-card-component/

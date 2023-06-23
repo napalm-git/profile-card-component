@@ -9,8 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("/images/bg-pattern-top.svg"),
-    url("/images/bg-pattern-bottom.svg");
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
   background-position: top left, bottom right;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, contain;
@@ -31,25 +30,21 @@ body {
   width: 370px;
   border-radius: 15px;
 }
-
 .wrapper .user {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .wrapper .user .user-image {
   border-radius: 50px;
   border: 5px solid hsl(0, 0%, 100%);
   margin-top: 50%;
 }
-
 .wrapper .user .user-name {
   font-size: 1.125rem;
   font-weight: 700;
 }
-
 .wrapper .user .user-info {
   display: flex;
   align-items: center;
@@ -58,23 +53,19 @@ body {
   margin-top: 1.25rem;
   margin-bottom: 0.625rem;
 }
-
 .wrapper .user .user-info .user-age {
   color: hsl(227, 10%, 46%);
   font-size: 1.125rem;
 }
-
 .wrapper .user small {
   color: hsl(227, 10%, 46%);
 }
-
 .wrapper .line {
   width: 100%;
   height: 1px;
   background-color: hsl(0, 0%, 85%);
   margin: 1.25rem 0;
 }
-
 .wrapper .social {
   display: flex;
   width: 70%;
@@ -83,16 +74,13 @@ body {
   gap: 20px;
   font-size: 18px;
 }
-
 .wrapper .social small {
   color: hsl(227, 10%, 46%);
   font-size: 0.875rem;
 }
-
 .wrapper .social .bold {
   font-weight: 700;
 }
-
 .wrapper .social .followers,
 .wrapper .social .likes,
 .wrapper .social .photos {

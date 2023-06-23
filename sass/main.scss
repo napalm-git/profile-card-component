@@ -76,4 +76,13 @@ body {
     background-color: $color-line;
     margin: $m-l 0;
   }
+
+  .social {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 18px;
+  }
 }

@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-  background-image: url("images/bg-pattern-card.svg");
+  background-image: url("/images/bg-pattern-card.svg");
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -35,4 +35,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.wrapper .user .user-image {
+  border-radius: 50px;
+  border: 5px solid hsl(0, 0%, 100%);
+  margin-top: 50%;
 }

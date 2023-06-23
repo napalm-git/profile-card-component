@@ -45,5 +45,19 @@ body {
       border: 5px solid $color-white;
       margin-top: 50%;
     }
+
+    .user-name {
+      font-size: $fs-text;
+      font-weight: $fw-bold;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: $m-l;
+      margin-bottom: $m-n;
+    }
   }
 }

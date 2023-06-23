@@ -53,6 +53,10 @@ body {
   margin-top: 1.25rem;
   margin-bottom: 0.625rem;
 }
+.wrapper .user .user-info .user-age {
+  color: hsl(227, 10%, 46%);
+  font-size: 1.125rem;
+}
 .wrapper .user small {
   color: hsl(227, 10%, 46%);
 }

@@ -58,6 +58,11 @@ body {
       gap: 10px;
       margin-top: $m-l;
       margin-bottom: $m-n;
+
+      .user-age {
+        color: $color-text;
+        font-size: $fs-text;
+      }
     }
 
     small {
